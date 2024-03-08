@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backblue"
+    android:padding="20dp"
+  tools:context="com.example.teaninnovators.WorkerDetailsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_marginHorizontal="3dp"
+        android:background="@color/white"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/worker_details"
+            android:textColor="@color/textColor"
+            android:textSize="40sp"
+            android:layout_marginBottom="18dp"
+            android:textStyle="bold"/>
+
+
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginHorizontal="3dp" android:textColorHint="@color/black" android:ems="10" android:background="@color/white"
+            android:layout_marginBottom="12dp"
+            android:elevation="3dp" android:padding="15dp" android:textColor="@color/black" android:inputType="textPersonName" android:hint="Enter your Name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/regAge"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:ems="10"
+            android:hint="@string/age"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/regName" />
+            <EditText
+                android:id="@+id/regGender"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:ems="10"
+
+                android:hint="@string/gender"
+
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/regName" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/regPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginHorizontal="3dp" android:textColorHint="@color/black" android:ems="10" android:background="@color/white" android:elevation="3dp" android:padding="15dp" android:textColor="@color/black" android:inputType="textPersonName" android:hint="Mobile No" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <EditText
+            android:id="@+id/regSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:textColorHint="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:ems="10"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white" android:padding="15dp" android:hint="Skills" android:inputType="textPersonName" android:textColor="@color/black" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/regMobileNo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+            android:id="@+id/regYearsOfWorking"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:ems="10"
+            android:hint="Years of Working"
+            android:inputType="textPersonName"
+
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regSkills" />
+            <EditText
+                android:id="@+id/regPincode"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:ems="10"
+                android:hint="@string/pincode"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/regSkills" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/light_blue_circle"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/inputBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regPincode"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/backblue"
+    tools:context="com.example.teaninnovators.EnterNumberActivity"
+    >
+
+    <ImageView
+        android:id="@+id/logInLogoImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/img"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:layout_marginHorizontal="4dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Phone No Here"
+            android:textColor="@color/textColor"
+            android:textSize="24sp"
+            android:layout_marginBottom="32sp"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:background="@color/white"
+                android:paddingHorizontal="14dp"
+                android:elevation="3dp"
+                android:layout_marginLeft="3dp"
+                android:paddingVertical="15dp"
+                android:layout_marginBottom="3dp"
+                android:maxLength="3"
+                android:id="@+id/countryCode"
+                android:layout_marginRight="10dp"
+                android:text="+91"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:elevation="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="25dp"
+                android:maxLength="10"
+                android:paddingVertical="15dp"
+                android:hint="@string/_99xxxxxxxx"
+                android:id="@+id/enterMobileNo"
+                android:textColorHint="@color/black"
+                android:background="@color/white"
+                android:ems="10"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/sendOtpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/greenbackground"
+        android:text="@string/send_otp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+</LinearLayout>

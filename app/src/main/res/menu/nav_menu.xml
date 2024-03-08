@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homeIcon"
+    android:icon="@drawable/baseline_home_24"
+    android:title="H"/>
+    <item
+        android:id="@+id/messageIcon"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="M"/>
+    <item
+        android:id="@+id/postJobIcon"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:title="J"/>
+    <item
+        android:id="@+id/extraOptionsIcon"
+        android:icon="@drawable/baseline_format_list_bulleted_24"
+        android:title="E"/>
+    <item
+        android:id="@+id/paymentIcon"
+        android:icon="@drawable/baseline_currency_rupee_24"
+        android:title="P"/>
+</menu>

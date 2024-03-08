@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342310111499",
+    "project_id": "teaninnov8tors",
+    "storage_bucket": "teaninnov8tors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342310111499:android:a111adf172ee8ce719ba0e",
+        "android_client_info": {
+          "package_name": "com.example.TeanInnovators"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd5c1HANT1qmlhF_36UqzGd8X3AZVyGVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

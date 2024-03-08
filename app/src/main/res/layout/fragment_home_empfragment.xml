@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.teaninnovators.fragments.HomeEmpfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/logInLogoImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/img"
+        android:padding="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:listitem="@layout/user_post_layout">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

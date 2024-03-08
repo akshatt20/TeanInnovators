@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backblue"
+    android:padding="20dp"
+    tools:context=".RoleActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imagewelcometag"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:padding="15dp"
+        app:srcCompat="@drawable/img"/>
+
+    <TextView
+        android:id="@+id/textcontinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="@string/continue_as"
+        android:textStyle="bold"
+
+        android:textAlignment="center"
+
+        android:textColor="@color/textColor"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/white"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <ImageView
+                android:id="@+id/englishsymbol"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                app:srcCompat="@drawable/img_4" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/employer"
+                android:textAlignment="center"
+                android:textColor="@color/ButtonColor"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/white"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <ImageView
+                android:id="@+id/hindisymbol"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/img_5" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/worker"
+                android:textAlignment="center"
+                android:textColor="@color/ButtonColor"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
