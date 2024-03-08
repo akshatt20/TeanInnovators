@@ -28,22 +28,22 @@
             android:name="com.example.teaninnovators.WorkerDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".OtpVerificationActivity"
+            android:name="com.example.teaninnovators.OtpVerificationActivity"
             android:exported="false" />
         <activity
-            android:name=".RoleActivity"
+            android:name="com.example.teaninnovators.RoleActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpDetailsActivity"
+            android:name="com.example.teaninnovators.SignUpDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.teaninnovators.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.example.teaninnovators.WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.teaninnovators.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

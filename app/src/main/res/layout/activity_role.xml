@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/backblue"
     android:padding="20dp"
-    tools:context=".RoleActivity"
+    tools:context="com.example.teaninnovators.RoleActivity"
     >
 
     <ImageView

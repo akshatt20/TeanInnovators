@@ -8,7 +8,7 @@
     android:gravity="center_horizontal"
     android:padding="25dp"
     android:orientation="vertical"
-    tools:context=".OtpVerificationActivity"
+    tools:context="com.example.teaninnovators.OtpVerificationActivity"
     >
 
     <ImageView
