@@ -1,4 +1,5 @@
-package com.example.electrothonproject
+package com.example.teaninnovators
+
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

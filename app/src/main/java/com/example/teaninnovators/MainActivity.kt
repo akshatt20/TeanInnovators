@@ -1,11 +1,10 @@
-package com.example.electrothonproject
+package com.example.teaninnovators
+
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import com.example.teaninnovators.TestActivity
-
+import androidx.appcompat.app.AppCompatActivity
 import com.example.TeanInnovators.R
 
 class MainActivity : AppCompatActivity() {
