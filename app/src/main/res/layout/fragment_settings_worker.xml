@@ -2,18 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@drawable/back"
     android:padding="20dp"
-    tools:context="com.example.teaninnovators.fragments.MessageEmpFragment">
+    tools:context="com.example.teaninnovators.fragments2.SettingsWorkerFragment">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        app:srcCompat="@drawable/applogo"/>
-
-
-
+    <!-- TODO: Update blank fragment layout -->
 
 </FrameLayout>

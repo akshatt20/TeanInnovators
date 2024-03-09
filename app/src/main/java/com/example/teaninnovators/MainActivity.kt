@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         logoImage = findViewById(R.id.logoImage)
 
         logoImage.setOnClickListener {
-            val intent = Intent(this, TestActivity::class.java)
+            val intent = Intent(this, WelcomeActivity::class.java)
             startActivity(intent)
         }
     }
