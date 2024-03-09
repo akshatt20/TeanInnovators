@@ -10,7 +10,7 @@
         android:id="@+id/logInLogoImage"
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        android:src="@drawable/img"
+        android:src="@drawable/applogo"
         android:padding="10dp"/>
 
     <androidx.recyclerview.widget.RecyclerView

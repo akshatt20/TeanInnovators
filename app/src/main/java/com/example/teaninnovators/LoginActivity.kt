@@ -22,10 +22,8 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
         forgotPasswordOption.setOnClickListener {
-            val intent = Intent(this, OtpVerificationActivity::class.java)
+            val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
-
-
     }
 }

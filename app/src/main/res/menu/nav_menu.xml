@@ -3,21 +3,21 @@
 <item
     android:id="@+id/homeIcon"
     android:icon="@drawable/baseline_home_24"
-    android:title="H"/>
+    android:title="Home"/>
     <item
         android:id="@+id/messageIcon"
         android:icon="@drawable/baseline_chat_24"
-        android:title="M"/>
+        android:title="Message"/>
     <item
         android:id="@+id/postJobIcon"
         android:icon="@drawable/baseline_add_circle_outline_24"
-        android:title="J"/>
+        android:title="Job"/>
     <item
         android:id="@+id/extraOptionsIcon"
         android:icon="@drawable/baseline_format_list_bulleted_24"
-        android:title="E"/>
+        android:title="@string/extra"/>
     <item
         android:id="@+id/paymentIcon"
         android:icon="@drawable/baseline_currency_rupee_24"
-        android:title="P"/>
+        android:title="@string/payment"/>
 </menu>
