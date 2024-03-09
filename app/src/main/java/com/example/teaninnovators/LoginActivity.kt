@@ -25,7 +25,5 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
-
-
     }
 }
