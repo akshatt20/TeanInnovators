@@ -65,6 +65,7 @@
                 />
 
             <EditText
+                android:id="@+id/logNum"
                 android:layout_width="wrap_content"
                 android:textColor="@color/white"
                 android:elevation="3dp"
@@ -75,7 +76,6 @@
                 android:maxLength="10"
                 android:paddingVertical="15dp"
                 android:hint="@string/_99xxxxxxxx"
-                android:id="@+id/logPhoneEnd"
                 android:textColorHint="@color/black"
                 android:background="@color/white"
                 android:ems="10"
@@ -120,6 +120,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="30dp"
         android:gravity="center">
+
         <TextView
             android:id="@+id/forgotPasswordOption"
             android:layout_width="match_parent"
