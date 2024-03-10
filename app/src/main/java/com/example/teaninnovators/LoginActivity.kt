@@ -18,7 +18,6 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var logBtn: Button
     private lateinit var logNum: EditText
     private lateinit var logPass: EditText
-
     private lateinit var mAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
