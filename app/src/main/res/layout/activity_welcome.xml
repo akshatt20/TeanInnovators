@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backpur"
+    android:background="@drawable/back"
     android:padding="20dp"
     tools:context="com.example.teaninnovators.WelcomeActivity"
     >
@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:padding="15dp"
-        app:srcCompat="@drawable/img"/>
+        app:srcCompat="@drawable/applogo"
+        />
     <ImageView
         android:id="@+id/imageWelcome"
         android:layout_width="match_parent"

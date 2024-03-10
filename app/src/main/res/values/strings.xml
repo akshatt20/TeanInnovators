@@ -7,26 +7,13 @@
     <string name="enter_your_mobile_no_or_e_mail_to_sign_into_your_shramik_account">Enter your Mobile no or E-mail to sign into your SHRAMIK Account.</string>
     <string name="mobile_no">Mobile No.</string>
     <string name="or">Or</string>
-    <!--    <string name="email">Email</string>-->
-    <!--    <string name="enter_your_email">Enter your Email</string>-->
-    <!--    <string name="password">Password</string>-->
-    <!--    <string name="enter_your_password">Enter your Password</string>-->
+
     <string name="sign_in">Sign In</string>
     <string name="login">Login</string>
-    <string name="shram_just_sent_an_otp_to">SHRAM just sent an otp to</string>
-    <!--    <string name="xxxxxxxx99">XXXXXXXX99</string>-->
-    <!--    <string name="otp">OTP</string>-->
-    <string name="haven_t_recieved_the_text">Haven\'t received the text?</string>
-    <!--    <string name="resend_otp">resend OTP?</string>-->
-    <!--    <string name="verify">Verify</string>-->
-    <!--    <string name="name">Name</string>-->
-    <!--    <string name="enter_your_name">Enter your Name</string>-->
-    <!--    <string name="email">Email</string>-->
-    <!--    <string name="enter_your_email">Enter your Email</string>-->
+
     <string name="password">Password</string>
     <string name="enter_your_password">Enter your Password</string>
-    <!--    <string name="sign_up">Sign Up</string>-->
-    <!--    <string name="name">Name</string>-->
+
     <string name="enter_your_name">Enter your Name</string>
     <string name="phone">Phone</string>
     <string name="_91">+91</string>
@@ -40,24 +27,18 @@
     <string name="resend_otp">resend OTP?</string>
     <string name="verify">Verify</string>
     <string name="rating">Rating</string>
-    <!--    <string name="explore">Explore</string>-->
-    <!--    <string name="message">Message</string>-->
+
     <string name="name">Name</string>
     <string name="work">work</string>
-    <string name="_4_74_58_rating" translatable="false">4.74 (58)Rating</string>
     <string name="experience">Experience</string>
     <string name="previously_worked_at">Previously worked at</string>
     <string name="call">Call</string>
-    <!--    <string name="message">Message</string>-->
-    <string name="report">Report</string>
-    <string name="customer_reviews">Customer Reviews</string>
-    <string name="explore">Explore</string>
-    <string name="booking" translatable="false">Booking</string>
+
+
     <string name="message">Message</string>
     <string name="jobs">Jobs</string>
     <string name="view_all">View All</string>
     <string name="workers">Workers</string>
-    <string name="do_you_want_to_confirm_this_booking">Do you want to Confirm this booking</string>
     <string name="yes">Yes!</string>
     <string name="no">No!</string>
     <string name="location">Location-</string>
@@ -74,12 +55,10 @@
     <string name="done">submit</string>
     <string name="enter_your_subject">Enter your subject</string>
     <string name="enter_your_complaint">Enter your complaint</string>
-    <string name="log_in">Log In</string>
-    <string name="forgot_passwrod">Forgot Passwrod</string>
-    <string name="forgot_password">Forgot Password</string>
+    <string name="log_in" translatable="false">Log In</string>
+    <string name="forgot_password">Forgot Passwrod</string>
     <string name="we_send_a_code_to_verify_your_phone_number">We send a code to verify your phone number</string>
     <string name="xxxxxxxx78">xxxxxxxx78</string>
-    <string name="didn_t_recieve_a_code">didn\'t recieve a code</string>
     <string name="resend_code">Resend code</string>
     <string name="already_have_an_account">Already have an account ?</string>
     <string name="welcome">Welcome</string>
@@ -103,6 +82,18 @@
     <string name="wages">Wages</string>
     <string name="duration">Duration</string>
     <string name="post">Post</string>
+    <string name="home">Home</string>
+    <string name="extra">Extra</string>
+    <string name="payment">Payment</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="post_your_job">POST YOUR JOB</string>
+    <string name="post_the_job">POST THE JOB</string>
+    <string name="agricultural_worker">Agricultural Worker</string>
+    <string name="edit">Edit</string>
+    <string name="mohan_das">Mohan Das</string>
+    <string name="years_of_experience">Years Of Experience :</string>
+<!--    <string name="forgot_password">Forgot password</string>-->
 
 
 </resources>

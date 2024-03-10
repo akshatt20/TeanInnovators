@@ -28,19 +28,19 @@ class WelcomeActivity : AppCompatActivity() {
 
         // Set click listener for englishsymbol
         englishSymbol.setOnClickListener {
-            val intent = Intent(this, SignUpDetailsActivity::class.java)
+            val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
         hindiSymbol.setOnClickListener {
-            val intent = Intent(this, SignUpDetailsActivity::class.java)
+            val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
         hindiText.setOnClickListener {
-            val intent = Intent(this, SignUpDetailsActivity::class.java)
+            val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
         englishText.setOnClickListener {
-            val intent = Intent(this, SignUpDetailsActivity::class.java)
+            val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)
         }
 

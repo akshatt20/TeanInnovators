@@ -2,14 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     android:background="@drawable/back"
     android:padding="20dp"
-
-    tools:context="com.example.teaninnovators.fragments.PaymentEmpFragment">
+    tools:context="com.example.teaninnovators.fragments2.SettingsWorkerFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
 
 </FrameLayout>
