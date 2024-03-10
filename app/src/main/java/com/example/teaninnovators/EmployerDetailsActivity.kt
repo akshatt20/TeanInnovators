@@ -50,7 +50,7 @@ class EmployerDetailsActivity : AppCompatActivity() {
         val employerId=dbRef.push().key!!
         val consumer=cons(employerId,empName,empMobileNum,empPin)
         dbRef.child(employerId).setValue(consumer).addOnCompleteListener{
-            Toast.makeText(this,"Data inserted succeusfully", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Data inserted successfully", Toast.LENGTH_LONG).show()
 
         }.addOnFailureListener{ err->
             Toast.makeText(this,"Error ${err.message}", Toast.LENGTH_LONG).show()

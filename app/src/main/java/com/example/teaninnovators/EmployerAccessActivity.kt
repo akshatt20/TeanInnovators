@@ -1,6 +1,8 @@
 package com.example.teaninnovators
 
+
 import android.os.Bundle
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.TeanInnovators.R
@@ -13,37 +15,43 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class EmployerAccessActivity : AppCompatActivity() {
 
+    lateinit var frameLayout:FrameLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_employer_access)
 
         val bottomNavigEmp = findViewById<BottomNavigationView>(R.id.bottomNavigEmp)
-
+        frameLayout = findViewById(R.id.employerAcc)
         val homeEmpFragment= HomeEmpfragment()
         val extraOptionFragment= ExtraOptionFragment()
         val messageEmpFragment= MessageEmpFragment()
         val paymentEmpFragment= PaymentEmpFragment()
         val postJobFragment= PostJobFragment()
-        makeCurrentFragment(homeEmpFragment)
+        
+        makeCurrentFragment(HomeEmpfragment())
+
+//        bottomNav = binding.bottomNavigEmp
 
 
-        bottomNavigEmp.setOnNavigationItemSelectedListener{
+        bottomNavigEmp.setOnItemSelectedListener{
             when(it.itemId)
             {
-                R.id.homeIcon->makeCurrentFragment(homeEmpFragment)
-                R.id.messageIcon->makeCurrentFragment(extraOptionFragment)
-                R.id.postJobIcon->makeCurrentFragment(messageEmpFragment)
-                R.id.extraOptionsIcon->makeCurrentFragment(paymentEmpFragment)
-                R.id.paymentIcon->makeCurrentFragment(paymentEmpFragment)
+
+                R.id.homeIcon->makeCurrentFragment(HomeEmpfragment())
+                R.id.messageIcon->makeCurrentFragment(MessageEmpFragment())
+                R.id.postJobIcon->makeCurrentFragment(PostJobFragment())
+                R.id.extraOptionsIcon->makeCurrentFragment(ExtraOptionFragment())
+                R.id.paymentIcon->makeCurrentFragment(PaymentEmpFragment())
             }
             true
 
         }
     }
 
-    private fun makeCurrentFragment(fragment: Fragment)=
-        supportFragmentManager.beginTransaction().apply {
-            replace(R.id.employerAcc,fragment)
-            commit()
-            }
+    private fun makeCurrentFragment(fragment: Fragment){
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.employerAcc,fragment)
+        transaction.commit()
+    }
+
 }
