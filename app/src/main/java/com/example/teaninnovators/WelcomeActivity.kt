@@ -26,7 +26,7 @@ class WelcomeActivity : AppCompatActivity() {
         hindiText = findViewById(R.id.hindiText)
         englishText = findViewById(R.id.englishText)
 
-        // Set click listener for englishsymbol
+
         englishSymbol.setOnClickListener {
             val intent = Intent(this, EnterNumberActivity::class.java)
             startActivity(intent)

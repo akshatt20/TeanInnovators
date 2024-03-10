@@ -9,11 +9,12 @@
     android:padding="20dp"
     tools:context="com.example.teaninnovators.fragments2.WorkFragment">
 
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        app:srcCompat="@drawable/applogo"/>
 
+        app:srcCompat="@drawable/applogo" />
 
     <LinearLayout
         android:layout_width="match_parent"

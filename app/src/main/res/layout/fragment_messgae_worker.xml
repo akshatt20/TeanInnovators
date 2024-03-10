@@ -8,7 +8,11 @@
     tools:context="com.example.teaninnovators.fragments2.MessgaeWorkerFragment">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
 
+        android:src="@drawable/applogo"  />
 
 
 </FrameLayout>

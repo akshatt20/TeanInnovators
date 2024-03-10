@@ -8,5 +8,9 @@
     tools:context="com.example.teaninnovators.fragments2.SettingsWorkerFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
 
+        android:src="@drawable/applogo"  />
 </FrameLayout>

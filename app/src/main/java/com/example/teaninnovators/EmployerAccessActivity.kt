@@ -8,5 +8,5 @@ class EmployerAccessActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_employer_access)
-    }
-}
+
+}}
